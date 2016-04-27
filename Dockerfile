@@ -1,4 +1,4 @@
-FROM daocloud.io/node:5.11
+FROM registry.zhipoo.com/node:5.11
 MAINTAINER Eureka <subjectwa@gmail.com>
 
 WORKDIR /app
