@@ -1,5 +1,5 @@
 {
-  "id": null,
+  "id": "nodejs",
   "cmd": null,
   "cpus": 0.2,
   "mem": 32,
@@ -9,7 +9,7 @@
     "type": "DOCKER",
     "volumes": [],
     "docker": {
-      "image": null,
+      "image": "registry.zhipoo.com/nodejs:latest",
       "network": "BRIDGE",
       "portMappings": [
         {
