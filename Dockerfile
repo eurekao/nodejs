@@ -7,4 +7,4 @@ RUN npm install
 ADD . /app
 
 EXPOSE 5000
-# CMD ["node", "index.js"]
+CMD ["node", "index.js"]
