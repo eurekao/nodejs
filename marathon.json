@@ -9,13 +9,13 @@
     "type": "DOCKER",
     "volumes": [],
     "docker": {
-      "image": "registry.zhipoo.com/nodejs:latest",
+      "image": "registry.zhipoo.com/nodejs",
       "network": "BRIDGE",
       "portMappings": [
         {
-          "containerPort": 80,
+          "containerPort": 5000,
           "hostPort": 0,
-          "servicePort": 10000,
+          "servicePort": 10001,
           "protocol": "tcp",
           "labels": {}
         }
@@ -27,7 +27,7 @@
   },
   "portDefinitions": [
     {
-      "port": 10000,
+      "port": 10001,
       "protocol": "tcp",
       "labels": {}
     }
