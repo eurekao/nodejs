@@ -9,7 +9,7 @@
     "type": "DOCKER",
     "volumes": [],
     "docker": {
-      "image": "registry.cn-qingdao.aliyuncs.com/eureka/nodejs:latest",
+      "image": "registry.cn-qingdao.aliyuncs.com/eureka/2048:latest",
       "network": "BRIDGE",
       "portMappings": [
         {
