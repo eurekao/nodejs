@@ -9,25 +9,25 @@
     "type": "DOCKER",
     "volumes": [],
     "docker": {
-      "image": "registry.zhipoo.com/nodejs",
+      "image": "registry.cn-qingdao.aliyuncs.com/eureka/nodejs",
       "network": "BRIDGE",
       "portMappings": [
         {
           "containerPort": 5000,
           "hostPort": 0,
-          "servicePort": 10001,
+          "servicePort": 10101,
           "protocol": "tcp",
           "labels": {}
         }
       ],
       "privileged": false,
       "parameters": [],
-      "forcePullImage": false
+      "forcePullImage": true
     }
   },
   "portDefinitions": [
     {
-      "port": 10001,
+      "port": 10101,
       "protocol": "tcp",
       "labels": {}
     }
